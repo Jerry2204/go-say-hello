@@ -1,5 +1,6 @@
 package gosayhello
 
-func SayHello(name string) string {
-	return "Hello" + name
+func SayHello(name string, address string) string {
+	result := "Hello " + name + ", I live in " + address
+	return result
 }
